@@ -206,6 +206,13 @@ nodeSelector: {}
 ## ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
 affinity: {}
 
+podLabels: {}
+## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
+##
+podAnnotations: {}
+## ref: https://kubernetes.io/docs/tasks/configure-pod-container/share-process-namespace/
+##
+
 ## Tolerations for pod assignment
 ## Ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
 tolerations: []
